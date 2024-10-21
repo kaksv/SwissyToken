@@ -7,7 +7,8 @@
 }
 
 body {
-  background-color: #f4f7fa;
+  /* background-color: #f4f7fa; */
+  background-color: 000;
   color: #333;
 }
 
@@ -42,7 +43,7 @@ body {
   color: white;
   border: none;
   border-radius: 5px;
-  padding: 10px 20px;
+  padding: 10px 10px;
   font-size: 1rem;
   cursor: pointer;
   transition: background-color 0.3s ease, transform 0.2s ease;
@@ -84,8 +85,20 @@ body {
 .result p {
   padding: 15px;
   margin-bottom: 10px; /* Space between result paragraphs */
+  color: #010101;
 }
 
 .result strong {
   color: #0077cc; /* Color for the labels */
+}
+
+.result-out{
+  color: #ff65a3;
+}
+
+.btn-wrapper{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
 }
