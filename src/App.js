@@ -98,8 +98,8 @@ function App() {
 
           {/*Display the results*/}
             <div className='result'>
-              <p><strong>Name:</strong> {name || '--'}</p>
-              <p><strong>Symbol:</strong> {symbol || '--'}</p>
+              <p><strong>Name:</strong> {name ||':' }</p>
+              <p><strong>Symbol:</strong> {symbol || ':'}</p>
               <p><strong>Total Supply:</strong> {totalSupply || '0'}</p>
             </div>
           </>
